@@ -1,0 +1,25 @@
+# Django Framework
+Django==5.2.9
+
+# Django REST Framework для API и сериализаторов
+djangorestframework==3.15.2
+
+# Для работы со статическими файлами в production
+whitenoise==6.8.2
+
+# CORS headers для работы с фронтендом
+django-cors-headers==4.6.0
+
+# Фильтрация и поиск для API
+django-filter==24.3
+
+# Для работы с переменными окружения (опционально, но рекомендуется)
+python-decouple==3.8
+
+# Для работы с Celery (если будете использовать)
+celery==5.4.0
+redis==5.2.1
+
+# Для работы с датами и временем (улучшенная поддержка)
+python-dateutil==2.9.0
+
